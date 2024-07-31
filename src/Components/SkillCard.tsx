@@ -1,4 +1,5 @@
 import { Avatar } from "@mantine/core";
+import img from "../images/Icons/HTML.png";
 
 const SkillBadge = (skills: []) => {
   return skills.map((skill: any, index: number) => (
@@ -8,7 +9,7 @@ const SkillBadge = (skills: []) => {
     >
       <img
         className="w-[48px] bs-mx:w-[36px] xsm-mx:w-[28px] !p-1"
-        src={`./images/Icons/${skill}.png`}
+        src={`../images/Icons/${skill}.png`}
       />
 
       <div className="text-textColor text-xl font-medium sm-mx:text-lg xs-mx:text-sm ">
